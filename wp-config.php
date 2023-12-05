@@ -84,7 +84,9 @@ $table_prefix = 'wp_';
  *
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true); // Activation du mode DEBUG
+define('WP_DEBUG_LOG', true); // Je stocke en mode LOG dans afficher
+define('WP_DEBUG_DISPLAY', false); // Je ne veux que le message s'affiche en façade
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
