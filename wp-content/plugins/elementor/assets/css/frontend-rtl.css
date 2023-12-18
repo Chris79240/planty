@@ -1,4 +1,4 @@
-/*! elementor - v3.17.0 - 08-11-2023 */
+/*! elementor - v3.18.0 - 08-12-2023 */
 @charset "UTF-8";
 .dialog-widget-content {
   background-color: var(--e-a-bg-default);
@@ -4863,8 +4863,8 @@ body.elementor-page .elementor-widget-menu-anchor {
 .elementor-icon.elementor-social-icon {
   font-size: var(--icon-size, 25px);
   line-height: var(--icon-size, 25px);
-  width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, 0.5em)));
-  height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, 0.5em)));
+  width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, 0.5em));
+  height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, 0.5em));
 }
 
 .elementor-social-icon {
