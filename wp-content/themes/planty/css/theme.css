@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+   font-family: 'Syne', sans-serif;
+}
+
+/* On applique un noir sur les paragraphes */
+p {
+   color: black;
+}
+
+/* HEADER */
+
+#site-header.sticky-top {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: white;
+}
+
+ li.menu-item a {
+    color: #000000 !important;
+    background-color: white;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+ }
+
+ li.menu-item.menu-item-32 {
+    display: block;
+}
+
+li.menu-item.menu-item-32 a {
+    display: block;
+    background-color: #DC9F96;
+    color: #fff !important;
+    height: 135%;
+    width: 100%;
+}
+
+li.menu-item.menu-item-32 :hover{
+    display: block;
+    background-color: #C02E44; 
+    color: #fff !important;
+    align-items: center;
+    height: 135%;
+    width: 100%;
+}
+
+/* BODY */
+
+ h1 {
+    color: #3B8E46;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #ECE2DA;
+ }
+
+
+ /* COMMANDER*/
+/*
+.elementor-widget-container .elementor-widget-contai .placeholder-container {
+    width: 45px; 
+    height: 55px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    color: #000000; 
+}*/
+
+/* FORMULAIRE "NOUS CONTACTER" */
+
+/* Contact Form 7 Input CSS */
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="textarea"],
+textarea {
+	font-size: 16px;
+	background-color:white;
+	border: none;
+	width: 100%;
+	padding: 10px;
+}
+	
+/* Label Font Size */
+
+label {
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+/* Contact Form 7 Submit Button CSS */
+
+.wpcf7-form input[type="submit"] {
+	font-family: syne;
+	background-color: #E0B9B4;
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	border: none;
+    display: block;
+    margin: auto;
+}
+
+/* FORMULAIRE "COMMANDER" */
+/*
+<div class="row">
+    <div class="col">[number number-126 min:0 class:fraise "0"]</div>
+    <div class="col">[number number-126 min:0 class:pamplemousse "0"]</div>
+    <div class="col">[number number-126 min:0 class:framboise "0"]</div>
+    <div class="col">[number number-126 min:0 class:citron "0"]</div>
+</div>
+<div class="row">
+    <div class="col-1">
+        <label> Your name
+            [text* your-name autocomplete:name] </label>
+        <label> Your email
+            [email* your-email autocomplete:email] </label>
+        <label> Subject
+            [text* your-subject] </label>
+        <label> Your message (optional)
+            [textarea your-message] </label>
+    </div>
+    <div class="col-2">
+        <label> Your name
+            [text* your-name autocomplete:name] </label>
+        <label> Your email
+            [email* your-email autocomplete:email] </label>
+        <label> Subject
+            [text* your-subject] </label>
+        <label> Your message (optional)
+            [textarea your-message] </label>
+    </div>
+</div>
+[submit "Submit"]*/
+
+
+/* FOOTER */
+
+#site-footer {
+    color: black !important;
+    background-color: white;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 450px;
+}
