@@ -15,15 +15,22 @@ function ajouter_lien_admin_menu( $items, $args ) {
     // Vérifier si l'utilisateur est connecté
     if ( is_user_logged_in() ) {
         // Ajouter le lien "Admin" à l'emplacement spécifié
-        //$items = str_replace( 'id="menu-item-34"', 'id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"', $items );
-        $items .= '<li><a href="http://localhost/test/planty/wp-admin/">Admin</a></li>';
-
-
+        
+        // Diviser la chaîne $items en un tableau d'éléments de menu individuels
+        $items_array = explode('</li>', $items);
+        
+        // Créer une variable contenant le code HTML du lien "Admin"
+        $admin_link = '<li><a href="http://localhost/test/planty/wp-admin/" class="admin-link">Admin</a></li>';
+        
+        // Insérer le lien "Admin" en deuxième position dans le tableau $items_array
+        array_splice( $items_array, 1, 0, $admin_link );
+        
+        // Rejoindre les éléments du tableau modifié en une seule chaîne
+        $items = implode('</li>', $items_array);
     }
     return $items;
 }
 add_filter( 'wp_nav_menu_items', 'ajouter_lien_admin_menu', 10, 2 );
-
 
 /*<li id="menu-item-833" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-833"><a href="http://localhost/test/planty/wp-admin/">Admin</a></li>
 <a href="http://localhost/test/planty/wp-admin/">Admin</a>
