@@ -29,14 +29,15 @@ p {
 
  li.menu-item.menu-item-32 {
     display: block;
+    
 }
 
 li.menu-item.menu-item-32 a {
     display: block;
     background-color: #DC9F96;
     color: #fff !important;
-    height: 135%;
-    width: 100%;
+    height: 135%; 
+    width: 100%
 }
 
 li.menu-item.menu-item-32 :hover{
