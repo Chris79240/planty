@@ -112,40 +112,11 @@ input.wpcf7-form-control.wpcf7-text {
     width: 100%;
 }
 
-.row-1{
-    display: flex;
-    justify-content: space-evenly;
-    color: #fff;
-    font-family: 'Syne', sans-serif;
-}
-
-.row-2{
-    column-count: 2; 
-}
-
-.titre-1, .titre-2{
-    flex: content;  
-   
-}
-
 .col {
     display: flex;
     justify-content: space-around;
     width: 4%;  
-    margin-bottom: 50px; 
-   
-}
-
-.elementor-kit-17 label {
-    font-family: syne;
-    font-size: 20px;
-    color: #fff;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
-}
-
-.col-1 .col-2{
-    font-size: 180px;
+    margin-bottom: 50px;  
 }
 
 input::-webkit-outer-spin-button,
@@ -154,9 +125,50 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/**************** FOOTER ****************/
+.form-separator {
+    border-top: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
-#site-footer 
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.titre-1, .titre-2{
+    flex: content;   
+}
+
+.titre-2 {
+    margin-right: 6%;
+}
+
+.row-2 {
+    column-count: 2; 
+}
+
+.elementor-kit-17 label {
+    font-family: syne;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+    margin-bottom: 25px; 
+}
+
+.separator {
+    position: absolute;
+    border-left: 2px solid white;
+    height: 45%;    
+    right: 50%;
+}
+
+/**************** FOOTER ****************/
 
 li.menu-item.menu-item-43 a {
     color: black !important;
@@ -166,20 +178,3 @@ li.menu-item.menu-item-43 a {
     font-weight: 700;
     font-size: 20px;
 }
-
-
-/*
-.v-line{
-    border-left: thick solid #000;
-    height:100%;
-    left: 50%;
-    position: absolute;
-   }
-
-hr{
-    height:100vh;
-    width:.5vw;
-    border-width:0;
-    color:#000;
-    background-color:#000;
-   }
