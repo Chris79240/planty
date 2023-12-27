@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
 /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
-body * {
-   font-family: 'Syne', sans-serif;
-}
 
-/* On applique un noir sur les paragraphes */
-p {
-   color: black;
-}
-
-/* HEADER */
+/**************** HEADER ****************/
 
 #site-header.sticky-top {
     position: sticky;
@@ -58,7 +50,7 @@ li.menu-item.menu-item-32 :hover{
     font-size: 20px;
   }
 
-/* BODY */
+/**************** BODY ****************/
 
  h1 {
     color: #3B8E46;
@@ -72,20 +64,7 @@ li.menu-item.menu-item-32 :hover{
     background-color: #ECE2DA;
  }
 
-
- /* COMMANDER*/
-/*
-.elementor-widget-container .elementor-widget-contai .placeholder-container {
-    width: 45px; 
-    height: 55px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px; 
-    color: #000000; 
-}*/
-
-/* FORMULAIRE "NOUS CONTACTER" */
+/**************** FORMULAIRE "NOUS CONTACTER" ****************/
 
 /* Contact Form 7 Input CSS */
 
@@ -93,7 +72,7 @@ li.menu-item.menu-item-32 :hover{
 .wpcf7-form input[type="email"],
 .wpcf7-form input[type="textarea"],
 textarea {
-	font-size: 16px;
+	font-size: 36px;
 	background-color:white;
 	border: none;
 	width: 100%;
@@ -103,7 +82,7 @@ textarea {
 /* Label Font Size */
 
 label {
-	font-size: 20px;
+	font-size: 21px;
 	font-weight: 600;
 	padding-bottom: 10px;
 }
@@ -121,7 +100,11 @@ label {
     margin: auto;
 }
 
-/* FORMULAIRE "COMMANDER" */
+/**************** FORMULAIRE "COMMANDER" ****************/
+
+input.wpcf7-form-control.wpcf7-text {
+    font-size: 36px;
+}
 
 .row {
     display: flex;
@@ -133,24 +116,32 @@ label {
     display: flex;
     justify-content: space-evenly;
     color: #fff;
+    font-family: 'Syne', sans-serif;
 }
 
-.titre-1 {
-    padding-right: 500px;
-    padding-left: -50px;
+.row-2{
+    column-count: 2; 
+}
+
+.titre-1, .titre-2{
+    flex: content;  
+   
 }
 
 .col {
     display: flex;
     justify-content: space-around;
-    width: 5%;   
+    width: 4%;  
+    margin-bottom: 50px; 
+   
 }
 
 .elementor-kit-17 label {
     font-family: syne;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
-    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .col-1 .col-2{
@@ -163,7 +154,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* FOOTER */
+/**************** FOOTER ****************/
 
 #site-footer 
 
@@ -192,36 +183,3 @@ hr{
     color:#000;
     background-color:#000;
    }
-*/
-/*
-<div class="row">
-    <div class="col">[number number-126 min:0 class:fraise "0"]</div>
-    <div class="col">[number number-126 min:0 class:pamplemousse "0"]</div>
-    <div class="col">[number number-126 min:0 class:framboise "0"]</div>
-    <div class="col">[number number-126 min:0 class:citron "0"]</div>
-</div>
-<div class="row">
-    <div class="col-1">
-        <label> Your name
-            [text* your-name autocomplete:name] </label>
-        <label> Your email
-            [email* your-email autocomplete:email] </label>
-        <label> Subject
-            [text* your-subject] </label>
-        <label> Your message (optional)
-            [textarea your-message] </label>
-    </div>
-    <div class="col-2">
-        <label> Your name
-            [text* your-name autocomplete:name] </label>
-        <label> Your email
-            [email* your-email autocomplete:email] </label>
-        <label> Subject
-            [text* your-subject] </label>
-        <label> Your message (optional)
-            [textarea your-message] </label>
-    </div>
-</div>
-[submit "Submit"]*/
-
-
