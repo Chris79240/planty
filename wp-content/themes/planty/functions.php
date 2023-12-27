@@ -16,7 +16,7 @@ function ajouter_lien_admin_menu( $items, $args ) {
     if ( is_user_logged_in() ) {
         // Ajouter le lien "Admin" à l'emplacement spécifié
    
-        if ( 'menu-1' == $args->theme_location ) {
+    if ( 'menu-1' == $args->theme_location ) {
          
     
         // Diviser la chaîne $items en un tableau d'éléments de menu individuels

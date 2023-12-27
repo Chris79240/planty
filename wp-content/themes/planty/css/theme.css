@@ -157,6 +157,25 @@ label {
     font-size: 180px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* FOOTER */
+
+#site-footer 
+
+li.menu-item.menu-item-43 a {
+    color: black !important;
+    background-color: white;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 
 /*
 .v-line{
@@ -206,14 +225,3 @@ hr{
 [submit "Submit"]*/
 
 
-/* FOOTER */
-
-#site-footer {
-    color: black !important;
-    background-color: white;
-    text-align: center;
-    font-family: 'Syne', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    padding-left: 450px;
-}
