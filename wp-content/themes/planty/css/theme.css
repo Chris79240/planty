@@ -11,13 +11,9 @@
 }
 
 .site-header {
-    /* Backwards compat for Hello 2.3.0 */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding-block-start: 0 !important;
     padding-block-end: 0 !important;
-    position: relative;
+    padding-inline-end: 0 !important;
   }
 
  li.menu-item a {
@@ -72,6 +68,10 @@ li.menu-item.menu-item-32 :hover{
     line-height: normal;
     text-transform: uppercase;
     background-color: #ECE2DA;
+ }
+
+ .elementor-13 .elementor-element.elementor-element-351d4b4 {
+    margin-inline-start: 0 !important;
  }
 
 /**************** FORMULAIRE "NOUS CONTACTER" ****************/
@@ -186,3 +186,8 @@ li.menu-item.menu-item-43 a {
     font-weight: 700;
     font-size: 20px;
 }
+
+.site-footer {
+    padding-block-start: 0 !important;
+    padding-block-end: 0 !important;
+  }
