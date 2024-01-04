@@ -10,6 +10,16 @@
     background-color: white;
 }
 
+.site-header {
+    /* Backwards compat for Hello 2.3.0 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block-start: 0 !important;
+    padding-block-end: 0 !important;
+    position: relative;
+  }
+
  li.menu-item a {
     color: #000000 !important;
     background-color: white;
@@ -134,23 +144,20 @@ input::-webkit-inner-spin-button {
 .row-1{
     display: flex;
     justify-content: space-evenly;
-    color: #fff;
-    font-family: 'Syne', sans-serif;
     margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-
-.titre-1, .titre-2{
-    flex: content;   
-}
-
-.titre-2 {
-    margin-right: 6%;
 }
 
 .row-2 {
-    column-count: 2; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    font-family: 'Syne', sans-serif;
+    color: #fff;
+}
+
+.col-1,.col-2 {
+    width: 45%;
+    
 }
 
 .elementor-kit-17 label {
@@ -164,9 +171,10 @@ input::-webkit-inner-spin-button {
 .separator {
     position: absolute;
     border-left: 2px solid white;
-    height: 45%;    
+    height: 55%;    
     right: 50%;
 }
+
 
 /**************** FOOTER ****************/
 
