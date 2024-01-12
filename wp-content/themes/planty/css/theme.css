@@ -11,8 +11,7 @@
 }
 
 .site-header {
-    padding-block-start: 0 !important;
-    padding-block-end: 0 !important;
+    height: 80px;
     padding-inline-end: 0 !important;
   }
 
@@ -21,30 +20,25 @@
     background-color: white;
     text-align: center;
     font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    padding-right: 20px;
+    width: 165px;
  }
 
- li.menu-item.menu-item-32 {
-    display: block;
-    
-}
-
+li.menu-item.menu-item-32, 
 li.menu-item.menu-item-32 a {
-    display: block;
-    background-color: #DC9F96;
-    color: #fff !important;
-    height: 135%; 
-    width: 100%
+  display: block;
+  height: 100%; /**/
+  background-color: #DC9F96;
+  color: #fff !important;
 }
 
-li.menu-item.menu-item-32 :hover{
-    display: block;
-    background-color: #C02E44; 
-    color: #fff !important;
-    align-items: center;
-    height: 135%;
-    width: 100%;
+li.menu-item.menu-item-32 :hover {
+  background-color: #C02E44;
+  color: #fff !important;
 }
 
 /* Lien Admin */
@@ -52,9 +46,12 @@ li.menu-item.menu-item-32 :hover{
     color: #000000;
     text-align: center;
     font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
   }
+
 
 /**************** BODY ****************/
 
@@ -88,14 +85,18 @@ textarea {
 	width: 100%;
 	padding: 10px;
 }
-	
+
+
 /* Label Font Size */
 
-label {
-	font-size: 21px;
-	font-weight: 600;
-	padding-bottom: 10px;
+.wpcf7-form label{
+	font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
+
 
 /* Contact Form 7 Submit Button CSS */
 
@@ -105,9 +106,15 @@ label {
 	color: white;
 	font-size: 15px;
 	font-weight: 400;
-	border: none;
-    display: block;
-    margin: auto;
+  font-style: normal;
+  line-height: 37px;
+  display: block;
+  margin: auto;
+  width: 198px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 
 /**************** FORMULAIRE "COMMANDER" ****************/
@@ -129,6 +136,7 @@ input.wpcf7-form-control.wpcf7-text {
     margin-bottom: 50px;  
 }
 
+/*supprime les flèches des boutons d'incrémentation des champs */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -155,26 +163,35 @@ input::-webkit-inner-spin-button {
     color: #fff;
 }
 
+.row-2 label{
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .col-1,.col-2 {
-    width: 45%;
-    
+    width: 45%; 
 }
 
 .elementor-kit-17 label {
     font-family: syne;
-    font-size: 18px;
-    color: #fff;
     padding-bottom: 15px;
-    margin-bottom: 25px; 
+}
+
+.wpcf7-form-control, .wpcf7-text{
+  margin-top: 15px;
 }
 
 .separator {
     position: absolute;
     border-left: 2px solid white;
-    height: 55%;    
+    height: 60%;    
     right: 50%;
 }
-
 
 /**************** FOOTER ****************/
 
@@ -184,10 +201,38 @@ li.menu-item.menu-item-43 a {
     text-align: center;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
 }
 
 .site-footer {
-    padding-block-start: 0 !important;
-    padding-block-end: 0 !important;
+    padding-block-start: 20px !important;
+    padding-block-end: 21px !important;
   }
+
+/**************** RESPONSIVE ****************/
+
+/*  @media (max-width: 576px) {
+    .site-header .header-inner:not(.header-stacked) .site-branding {
+      max-width: 80%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .site-footer:not(.footer-stacked) .footer-inner .site-branding,
+    .site-footer:not(.footer-stacked) .footer-inner .site-navigation,
+    .site-footer:not(.footer-stacked) .footer-inner .copyright {
+      display: block;
+      text-align: center;
+      width: 100%;
+      max-width: none;
+    }
+    .site-footer .footer-inner .site-navigation ul.menu {
+      justify-content: center;
+    }
+    .site-footer .footer-inner .site-navigation ul.menu li {
+      display: inline-block;
+    }
+  }
+  */
