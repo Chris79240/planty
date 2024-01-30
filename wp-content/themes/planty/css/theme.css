@@ -3,45 +3,35 @@
 
 /**************** HEADER ****************/
 
-#site-header.sticky-top {
-    position: sticky;
-    z-index: 10;
-    top: 0;
-    background-color: white;
-}
-
 .site-header {
-    height: 80px;
-    padding-inline-end: 0 !important;
-    
-  margin-top: -16px;
-  margin-bottom: 10px;
+    height: 75px;
+    padding-inline-end: 0 !important; 
+    margin-top: -16px;
+    margin-bottom: 12px;
   }
 
- li.menu-item a {
-    color: #000000 !important;
-    background-color: white;
+ .menu-item a {
     text-align: center;
-    font-family: 'Syne', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    line-height: normal;
-    padding-right: 20px;
-    width: 165px;
-    padding-top: 26px !important;
+    line-height: normal;    
+    width: 200px;
     padding-bottom: 30px !important;
+    padding-top: 26px !important;  
  }
 
-li.menu-item.menu-item-32, 
-li.menu-item.menu-item-32 a {
+ #menu-item-33 {
+  margin-right: -60px;
+ }
+
+.menu-item.menu-item-32, 
+.menu-item.menu-item-32 a {
   display: block;
-  height: 100%; /**/
+  height: 100%;
+  width: 230px;
   background-color: #DC9F96;
   color: #fff !important;
 }
 
-li.menu-item.menu-item-32 :hover {
+.menu-item.menu-item-32 :hover {
   background-color: #C02E44;
   color: #fff !important;
 }
@@ -55,6 +45,7 @@ li.menu-item.menu-item-32 :hover {
     font-size: 16px;
     font-style: normal;
     line-height: normal;
+    margin-right: -30px;
   }
 
 
@@ -222,9 +213,65 @@ li.menu-item.menu-item-43 a {
     font-style: normal;
     line-height: normal;
     width: 100%;
+    margin-top: 1px;
 }
 
 .site-footer {
-    padding-block-start: 15px !important;
-    padding-block-end: 0 !important;
+  padding-block-start: 0 !important;
+  padding-block-end: -10px !important;
+} 
+
+#site-footer {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+
+/*
+
+@media (max-width: 1120px) {
+  
+}
+
+@media (max-width: 1024px) {
+
+  .elementor-widget-container span{
+    
+    
+
   }
+
+  
+  }
+*/
+
+@media (max-width: 990px) {
+  .wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+    width: 125%;
+}
+
+.elementor-element.elementor-element-f0f114a.e-con-full.e-flex.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no.e-con.e-child {
+  justify-content: space-evenly;
+  padding: 40px;
+  gap: 50px 50px;
+}
+/*
+.elementor-heading-title.elementor-size-default {
+  width: 180px;
+  align-items: center;
+}
+*/
+
+
+
+
+/*
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 320px) {
+  
+}
