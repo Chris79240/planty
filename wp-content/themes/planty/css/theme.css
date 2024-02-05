@@ -19,7 +19,7 @@
  }
 
  #menu-item-33 {
-  margin-right: -60px;
+  margin-right: -20px;
  }
 
 .menu-item.menu-item-32, 
@@ -48,7 +48,6 @@
     margin-right: -30px;
   }
 
-
 /**************** BODY ****************/
 
  h1 {
@@ -61,10 +60,6 @@
     line-height: normal;
     text-transform: uppercase;
     background-color: #ECE2DA;
- }
-
- .elementor-13 .elementor-element.elementor-element-351d4b4 {
-    margin-inline-start: 0 !important;
  }
 
 /**************** FORMULAIRE "NOUS CONTACTER" ****************/
@@ -82,7 +77,6 @@ textarea {
 	padding: 10px;
 }
 
-
 /* Label Font Size */
 
 .wpcf7-form label{
@@ -92,7 +86,6 @@ textarea {
   font-weight: 400;
   line-height: normal;
 }
-
 
 /* Contact Form 7 Submit Button CSS */
 
@@ -218,60 +211,9 @@ li.menu-item.menu-item-43 a {
 
 .site-footer {
   padding-block-start: 0 !important;
-  padding-block-end: -10px !important;
 } 
 
 #site-footer {
   margin-top: 0;
   padding-bottom: 0;
-}
-
-
-
-
-/*
-
-@media (max-width: 1120px) {
-  
-}
-
-@media (max-width: 1024px) {
-
-  .elementor-widget-container span{
-    
-    
-
-  }
-
-  
-  }
-*/
-
-@media (max-width: 990px) {
-  .wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
-    width: 125%;
-}
-
-.elementor-element.elementor-element-f0f114a.e-con-full.e-flex.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no.e-con.e-child {
-  justify-content: space-evenly;
-  padding: 40px;
-  gap: 50px 50px;
-}
-/*
-.elementor-heading-title.elementor-size-default {
-  width: 180px;
-  align-items: center;
-}
-*/
-
-
-
-
-/*
-@media (max-width: 768px) {
-  
-}
-
-@media (max-width: 320px) {
-  
 }
