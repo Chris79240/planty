@@ -9358,3 +9358,9 @@ Stack trace:
 [05-Feb-2024 11:40:21 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
 [05-Feb-2024 11:40:23 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
 [05-Feb-2024 11:40:23 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
+[05-Feb-2024 15:02:58 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
+[05-Feb-2024 15:02:58 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
+[05-Feb-2024 15:03:03 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
+[05-Feb-2024 15:03:03 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
+[05-Feb-2024 15:03:08 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
+[05-Feb-2024 15:03:08 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\test\planty\wp-includes\functions.php on line 5373
