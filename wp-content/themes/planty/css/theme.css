@@ -18,6 +18,7 @@
     padding-top: 26px !important;  
  }
 
+
  #menu-item-33 {
   margin-right: -20px;
  }
@@ -121,7 +122,7 @@ input.wpcf7-form-control.wpcf7-text {
 .col {
     display: flex;
     justify-content: space-around;
-    width: 4%;  
+    width: 45px;  
     margin-bottom: 50px;  
 }
 
